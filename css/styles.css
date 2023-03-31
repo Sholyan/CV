@@ -28,7 +28,14 @@ body {
 }
 
 /* Styles for lists in the document */
-
+ .p1 {
+  font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+font-size: 20px;
+}
+.p2 {
+  font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+font-size: 28px;
+}
 .biography-details li::before, .skill-list li::before {
 	content: ">";
 	font-weight: 800;
